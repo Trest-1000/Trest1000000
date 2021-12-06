@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,300&family=Sigmar+One&display=swap');
+
+
+body  {
+ 
+   
+} 
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Sigmar One', cursive;  
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+ .flex-wrapper {
+    display: flex;
+ }
+.container {
+       
+}
+
+.header__container {
+    width: 100%;
+    height: 150px;
+    text-align: center;
+}
+.main-text {
+  
+}
+input {
+    width: 80%;
+    font-size: 18px;    
+    font-family: 'Roboto';
+    border: 1px solid sienna;
+
+}
+
+#description-kast {
+    border-radius: 10px ;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 90px;
+    
+    
+}
+.simple {
+    margin-top: 20px;
+    margin-bottom: 20px;       
+}
+
+
+.myto-item {
+   max-width: 100%;
+    min-width:680px ;
+    cursor: pointer;
+    list-style: none;
+    text-align: start;
+    opacity: 0.9;
+    display: flex;
+    justify-content: center;
+    
+
+
+}
+.description {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    list-style-type: none;
+    background: #eee;
+    transition: 0.3s;
+    user-select: none;
+  }
+
+.description {
+    max-width: 100%;
+    width: 670px;
+    height: 60px;
+    border: 1px solid sienna;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    background-color: skyblue;
+
+    
+}
+
+
+.description:hover {
+    background-color:palegoldenrod;
+    transition: 0.3s;
+
+}
+  
+.checked {
+    background-color:rgb(162, 235, 16);
+    color: black;
+    text-decoration: line-through;
+    opacity: 0.6;
+     
+}
+
+ .close {
+     position: absolute;
+     right: 0;
+     top: 0;
+     padding: 12px 16px;
+ }   
+ .close:hover {
+     background: grey;
+     color: #FFFFFF;
+ }
+ .button-wrapper {
+    width: 80px;
+    
+    
+}   
+
+ #add-kast-btn {
+    padding: 10px;
+    background:rgb(63, 219, 43);
+    border-radius: 50%;
+    color: #333;
+    margin-left: 0px;
+  }
+  
+  #add-kast-btn:hover {
+    background: #aaa;
+  }
+  
+.buttons {
+    width: 180px;
+    height: 30px;
+    display: flex; 
+    flex-direction: row; 
+    float: right;
+    padding-left: 50px;
+}
+.btn-complete {
+    width: 30px;
+    height: 24px;
+    color: yellow;
+    margin-right: 15px;
+    margin-top: 2px;
+    background-color: green;
+    
+}
+
+.btn-delete {
+    width: 80px;
+    height: 28px;
+    background-color:gold;
+    padding: 0;
+    padding-top: 0px;
+    text-align: justify;
+    padding-left: 3px;
+}
